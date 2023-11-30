@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.sort{
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+}
+.sort-btn{
+    color: #e4e4e7;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+.sort-btn:hover,.sort-btn.active{
+    color: rgb(212, 212, 95);
+}
+.products{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+.card{
+    width: 23%;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.card-img img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}

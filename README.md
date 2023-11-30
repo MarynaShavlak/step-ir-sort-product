@@ -1,1 +1,1 @@
-# step-ir-sort-product
+# step-it-sort-product
